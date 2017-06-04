@@ -6,7 +6,7 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: CollisionEffect
+  m_Name: PurpleLineRendererSmall
   m_Shader: {fileID: 4800000, guid: 64e082eebd83ad746897927ad97b5c0d, type: 3}
   m_ShaderKeywords: _EMISSION
   m_LightmapFlags: 1
@@ -92,9 +92,6 @@ Material:
         name: _GlossyReflections
       second: 1
     - first:
-        name: _InvFade
-      second: 1
-    - first:
         name: _Metallic
       second: 0
     - first:
@@ -102,9 +99,6 @@ Material:
       second: 0
     - first:
         name: _OcclusionStrength
-      second: 1
-    - first:
-        name: _POW
       second: 1
     - first:
         name: _Parallax
@@ -127,10 +121,7 @@ Material:
     m_Colors:
     - first:
         name: _Color
-      second: {r: 0, g: 2.365518, b: 7, a: 1}
+      second: {r: 0.4605882, g: 1.7161416, b: 4.176, a: 1}
     - first:
         name: _EmissionColor
       second: {r: 0, g: 0, b: 0, a: 1}
-    - first:
-        name: _TintColor
-      second: {r: 2.1920846, g: 0.64063257, b: 3.351, a: 1}
